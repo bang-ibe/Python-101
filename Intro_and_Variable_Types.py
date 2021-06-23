@@ -85,7 +85,62 @@ print(Contoh_Tuple)
 # sisanya kayak list dan string, gue males ngetiknya hehe
 
       
+# Python Dictionary
+dict = {}
+print(dict)
+dict['satu'] = "This is one's value"
+dict[2] = "This is two's value"
+print(dict)
+print(dict.values())
+print(dict.keys())
+print(dict['satu']) # Print dict one's value
+print(dict['2'])
+Big_dict = {'nama' = "Johny Deep"; "code" = 6969; 'dept' = "Videos Engineer"}
+      
+# Example Dictionary
+mobil = {'nama' = 'Deep'; 'harga' = 300000000; 'diskon' = 2000000}
+motor = {'nama' = 'KLZ'; 'harga' = 30000000; 'diskon' = 1000000}
+sepeda = {'nama' = 'Polyglot' = 3000000;  'diskon' = 200000} 
+harga_mobil = mobil['harga'] - mobil['diskon']
+harga_motor = motor['harga'] - motor['diskon']
+harga_sepeda = sepeda['harga'] - sepeda['diskon']
+total_harga = harga_motor + harga_mobil + harga_sepeda
+total_pajak = total_harga * 0.05
+print(total_harga + total_pajak)
+      
+# Python Set
+contoh_set = {"baju", "kaos", "sempak", "celana"} # Mutable
+contoh_frozen_set = ({"gope","seceng","goceng"}) # Immutable
              
-              
+# Data Conversion
+Duit = "Goceng"
+in_number = 5000
+print(Duit + in_number) # Error
+print(Duit + str(number)) # Change it to string
 
+# Variable Global dan Lokal
+# Lokal
+x = 911
+print(x)
+def sebuah_fungsi():
+      # global x
+      x = "telpon polisi"
+      print(x)
+sebuah_fungsi()
+print(x)
 
+# Global
+x = 911
+print(x)
+def sebuah_fungsi():
+      global x
+      x = "telpon polisi"
+      print(x)
+sebuah_fungsi()
+print(x)      
+      
+# Delete Variable 
+_easting = 213891
+print(_easting)
+del(_easting)
+print(_easting)
