@@ -60,7 +60,7 @@ print(sedotan[4:9])
 print(sedotan[7:])
 print(sedotan[:12])
 print(sedotan[-1])
-print(sedotan + "dan bahannya stainless skill xixixi"
+print(sedotan + "dan bahannya stainless skill xixixi") 
 print(sedotan*2)
 
 print("Nama gue %s umur gue %d" % ("siapa dah", 23)
