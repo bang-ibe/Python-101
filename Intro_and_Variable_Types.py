@@ -63,7 +63,7 @@ print(sedotan[-1])
 print(sedotan + "dan bahannya stainless skill xixixi") 
 print(sedotan*2)
 
-print("Nama gue %s umur gue %d" % ("siapa dah", 23)
+print("Nama gue %s umur gue %d" % ("siapa dah", 23))
 
       
 # Python List
@@ -79,7 +79,7 @@ print(contoh_list*2)
 print(contoh_list[-1])
       
 # Python Tuple
-# Just like list but cannot be update/changed
+# Just like list but can not be updated/changed
 Contoh_Tuple  = ("Contoh tuple", 20, 9.0, False)
 print(Contoh_Tuple)
 # sisanya kayak list dan string, gue males ngetiknya hehe
