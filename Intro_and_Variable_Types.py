@@ -27,22 +27,23 @@ suhu_matahari = 1000000000
 type(suhu_matahari)
 suhu_kutub = -4.6
 type(suhu_kutub)
-ibe_ganteng = TRUE
+ibe_ganteng = True
 type(ibe_ganteng)
-ibe_jelek = FALSE
+ibe_jelek = False
 type(ibe_jelek)
 
 # Assigning Value to Variable
-iphone7 = 2500000 # Automatically Integer
+sumsang = 2500000 # Automatically Integer
 Laptop = input("Masukkan harga laptop:") # Automatically String even the value is number
   # >
- type(Laptop)
-Sensors = int(input("Masukkan harga sensor-sensor: ")
+type(Laptop)
+Sensors = int(input("Masukkan harga sensor-sensor: "))
               # >
 type(Sensors)
 mouse = 125000; type(mouse)
 headphone = 250000.0; type(headphone)
-Kopi_SBUX = "Mahal Banget Ngab"; type(kopi_SBUX)
+Kopi_SBUX = "Mahal Banget Ngab"; 
+type(Kopi_SBUX)
 
 # Multiple Assignment
 a,b,c = 69,68,67
@@ -95,12 +96,12 @@ print(dict.values())
 print(dict.keys())
 print(dict['satu']) # Print dict one's value
 print(dict['2'])
-Big_dict = {'nama' = "Johny Deep"; "code" = 6969; 'dept' = "Videos Engineer"}
+Big_dict = {'nama': "Johny Deep", "code": 6969, 'dept': "Videos Engineer"}
       
 # Example Dictionary
-mobil = {'nama' = 'Deep'; 'harga' = 300000000; 'diskon' = 2000000}
-motor = {'nama' = 'KLZ'; 'harga' = 30000000; 'diskon' = 1000000}
-sepeda = {'nama' = 'Polyglot' = 3000000;  'diskon' = 200000} 
+mobil = {'nama': 'Deep', 'harga' : 300000000, 'diskon': 2000000}
+motor = {'nama' : 'KLZ', 'harga' : 30000000, 'diskon' : 1000000}
+sepeda = {'nama' :'Polyglot', 'harga' : 3000000,  'diskon': 200000}
 harga_mobil = mobil['harga'] - mobil['diskon']
 harga_motor = motor['harga'] - motor['diskon']
 harga_sepeda = sepeda['harga'] - sepeda['diskon']
@@ -116,7 +117,7 @@ contoh_frozen_set = ({"gope","seceng","goceng"}) # Immutable
 Duit = "Goceng"
 in_number = 5000
 print(Duit + in_number) # Error
-print(Duit + str(number)) # Change it to string
+print(Duit + str(in_number)) # Change it to string
 
 # Variable Global dan Lokal
 # Lokal
